@@ -64,11 +64,47 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
+        // 1. Run the item matching engine
         renderItems(selectedPkmnObjects);
+
+        // 2. Run the habitat conflict checker
+        checkHabitatConflicts(selectedPkmnObjects);
+    }
+
+    function checkHabitatConflicts(selectedPkmn) {
+        const banner = document.getElementById('conflict-banner');
+        const messageEl = document.getElementById('conflict-message');
+
+        if (!banner || !messageEl) return;
+
+        // Extract all unique habitats from the currently selected Pokemon
+        const currentHabitats = [...new Set(selectedPkmn.map(p => p.habitat.toLowerCase()))];
+
+        let conflictsFound = [];
+
+        // Rule 1: Bright vs Dark
+        if (currentHabitats.includes('bright') && currentHabitats.includes('dark')) {
+            conflictsFound.push("<strong>Bright</strong> and <strong>Dark</strong> preferences clash!");
+        }
+        // Rule 2: Warm vs Cool
+        if (currentHabitats.includes('warm') && currentHabitats.includes('cool')) {
+            conflictsFound.push("<strong>Warm</strong> and <strong>Cool</strong> preferences clash!");
+        }
+        // Rule 3: Dry vs Humid
+        if (currentHabitats.includes('dry') && currentHabitats.includes('humid')) {
+            conflictsFound.push("<strong>Dry</strong> and <strong>Humid</strong> preferences clash!");
+        }
+
+        // Display the banner if conflicts exist, otherwise hide it
+        if (conflictsFound.length > 0) {
+            messageEl.innerHTML = `<strong>Habitat Conflict Warning:</strong> ${conflictsFound.join(" | ")}`;
+            banner.style.display = "flex";
+        } else {
+            banner.style.display = "none";
+        }
     }
 
     function renderItems(selectedPkmn) {
-        // IDs must match your HTML exactly: list-Relaxation, list-Decoration, list-Toy
         const columnIds = ["list-Relaxation", "list-Decoration", "list-Toy"];
         columnIds.forEach(id => {
             const el = document.getElementById(id);
@@ -83,8 +119,6 @@ document.addEventListener('DOMContentLoaded', () => {
             let matchCount = 0;
 
             selectedPkmn.forEach(pkmn => {
-                // CASE-INSENSITIVE MATCHING:
-                // Checks if any tag in the item's tags array matches any favorite in the Pokemon's list
                 const isMatch = item.tags && item.tags.some(tag =>
                     pkmn.favorites.some(fav => fav.toLowerCase() === tag.toLowerCase())
                 );
@@ -124,7 +158,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const itemCard = document.createElement('div');
         itemCard.className = 'item-card';
 
-        // Shading Logic
+        // SHADING RULES
         if (totalSelected === 2 && matchCount === 2) {
             itemCard.classList.add('match-perfect');
         } else if (totalSelected >= 3) {
@@ -135,35 +169,33 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         }
 
-        // New HTML Structure: Name and Badge on top, details on bottom
         itemCard.innerHTML = `
-        <div class="item-header">
-            <span class="item-title">${item.name}</span>
-            <span class="match-badge">${matchCount}/${totalSelected}</span>
-        </div>
-        <div class="item-details">
-            <span class="item-category">${item.tags.join(" / ")}</span>
-            <div class="matched-pokemon">Matches: ${matchingNames}</div>
-        </div>
-    `;
+            <div class="item-header">
+                <span class="item-title">${item.name}</span>
+                <span class="match-badge">${matchCount}/${totalSelected}</span>
+            </div>
+            <div class="item-details">
+                <span class="item-category">${item.tags.join(" / ")}</span>
+                <div class="matched-pokemon">Matches: ${matchingNames}</div>
+            </div>
+        `;
 
         list.appendChild(itemCard);
     }
 
+    // --- DARK MODE THEME TOGGLE LOGIC ---
     const themeBtn = document.getElementById('theme-toggle');
+    if (themeBtn) {
+        if (localStorage.getItem('theme') === 'dark') {
+            document.body.classList.add('dark-mode');
+        }
 
-    // Check for saved preference
-    if (localStorage.getItem('theme') === 'dark') {
-        document.body.classList.add('dark-mode');
+        themeBtn.addEventListener('click', () => {
+            document.body.classList.toggle('dark-mode');
+            const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
+            localStorage.setItem('theme', currentTheme);
+        });
     }
-
-    themeBtn.addEventListener('click', () => {
-        document.body.classList.toggle('dark-mode');
-
-        // Save the choice so it stays dark after a refresh!
-        const currentTheme = document.body.classList.contains('dark-mode') ? 'dark' : 'light';
-        localStorage.setItem('theme', currentTheme);
-    });
 
     // Start the engine
     loadData();

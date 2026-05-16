@@ -13,30 +13,35 @@
     <header>
         <h1>Pokopia Furniture Matcher</h1>
         <p>Select Pokemon to Find Matching Furniture</p>
-        <p>Data was sourced directly from <a href="https://www.serebii.net">Serebii</a></p>
+        <p><small><i>Data was sourced directly from <a href="https://www.serebii.net">Serebii</a></i></small></p>
         <button id="theme-toggle" class="theme-btn">Toggle Dark Mode</button>
     </header>
 
     <section id="selection-area">
-    <div class="selector-container">
-        <input class="pkmn-select" id="select-1" list="pokemon-options" placeholder="Search Pokemon 1...">
-        <div id="info-1" class="pkmn-info"></div>
-    </div>
-    <div class="selector-container">
-        <input class="pkmn-select" id="select-2" list="pokemon-options" placeholder="Search Pokemon 2...">
-        <div id="info-2" class="pkmn-info"></div>
-    </div>
-    <div class="selector-container">
-        <input class="pkmn-select" id="select-3" list="pokemon-options" placeholder="Search Pokemon 3...">
-        <div id="info-3" class="pkmn-info"></div>
-    </div>
-    <div class="selector-container">
-        <input class="pkmn-select" id="select-4" list="pokemon-options" placeholder="Search Pokemon 4...">
-        <div id="info-4" class="pkmn-info"></div>
-    </div>
+        <div class="selector-container">
+            <input class="pkmn-select" id="select-1" list="pokemon-options" placeholder="Search Pokemon 1...">
+            <div id="info-1" class="pkmn-info"></div>
+        </div>
+        <div class="selector-container">
+            <input class="pkmn-select" id="select-2" list="pokemon-options" placeholder="Search Pokemon 2...">
+            <div id="info-2" class="pkmn-info"></div>
+        </div>
+        <div class="selector-container">
+            <input class="pkmn-select" id="select-3" list="pokemon-options" placeholder="Search Pokemon 3...">
+            <div id="info-3" class="pkmn-info"></div>
+        </div>
+        <div class="selector-container">
+            <input class="pkmn-select" id="select-4" list="pokemon-options" placeholder="Search Pokemon 4...">
+            <div id="info-4" class="pkmn-info"></div>
+        </div>
 
-    <datalist id="pokemon-options"></datalist>
-</section>
+        <datalist id="pokemon-options"></datalist>
+    </section>
+
+    <div id="conflict-banner" class="conflict-alert" style="display: none;">
+        <span class="warning-icon">⚠️</span>
+        <span id="conflict-message"></span>
+    </div>
 
     <main class="results-container">
         <div class="column" id="relaxation-col">

@@ -7,7 +7,7 @@
     --text-muted: #6b7280;
     --border-color: #e5e7eb;
     --input-bg: #ffffff;
-    
+
     /* Highlight Colors */
     --green-match: #d1fae5;
     --green-border: #10b981;
@@ -23,7 +23,7 @@ body.dark-mode {
     --text-muted: #9ca3af;
     --border-color: #374151;
     --input-bg: #374151;
-    
+
     --green-match: #064e3b;
     --green-border: #10b981;
     --yellow-match: #78350f;
@@ -64,7 +64,7 @@ header p {
     font-size: 1.2rem;
     color: var(--text-muted);
     max-width: 600px;
-    margin: 0 auto 25px auto;
+    margin: 0 auto 15px auto;
     line-height: 1.5;
 }
 
@@ -265,4 +265,51 @@ header p {
 
 body.dark-mode .match-badge {
     background: rgba(255, 255, 255, 0.1);
+}
+
+.conflict-alert {
+    width: 100%;
+    max-width: 1200px;
+    margin: -20px auto 30px auto;
+    /* Tucks it neatly between selections and results */
+    box-sizing: border-box;
+    padding: 14px 20px;
+    background-color: #fef2f2;
+    /* Light red */
+    border: 1px solid #fee2e2;
+    border-left: 5px solid #ef4444;
+    /* Vivid red accent line */
+    border-radius: 8px;
+    color: #991b1b;
+    font-size: 0.95rem;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    animation: fadeIn 0.2s ease-in-out;
+}
+
+.warning-icon {
+    font-size: 1.2rem;
+}
+
+/* Dark mode adjustment for proper contrast */
+body.dark-mode .conflict-alert {
+    background-color: #451a03;
+    /* Deep amber/crimson background */
+    border: 1px solid #78350f;
+    border-left: 5px solid #f59e0b;
+    /* Vivid amber line */
+    color: #fef3c7;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-5px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
 }

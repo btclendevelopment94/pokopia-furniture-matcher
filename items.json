@@ -75,7 +75,7 @@
             "Containers",
             "Gatherings",
             "Glass Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Metal Stuff"
         ]
     },
@@ -190,7 +190,7 @@
             "Blocky Stuff",
             "Containers",
             "Fabric",
-            "Groupactivities"
+            "Group activities"
         ]
     },
     {
@@ -219,7 +219,7 @@
         "tags": [
             "Blocky Stuff",
             "Complicated Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Watching Stuff"
         ]
     },
@@ -229,7 +229,7 @@
         "tags": [
             "Blocky Stuff",
             "Complicated Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Watching Stuff"
         ]
     },
@@ -239,7 +239,7 @@
         "tags": [
             "Blocky Stuff",
             "Complicated Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Watching Stuff"
         ]
     },
@@ -249,7 +249,7 @@
         "tags": [
             "Blocky Stuff",
             "Complicated Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Watching Stuff"
         ]
     },
@@ -259,7 +259,7 @@
         "tags": [
             "Blocky Stuff",
             "Complicated Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Watching Stuff"
         ]
     },
@@ -269,7 +269,7 @@
         "tags": [
             "Blocky Stuff",
             "Complicated Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Watching Stuff"
         ]
     },
@@ -279,7 +279,7 @@
         "tags": [
             "Blocky Stuff",
             "Containers",
-            "Groupactivities",
+            "Group activities",
             "Watching Stuff"
         ]
     },
@@ -342,7 +342,7 @@
         "tags": [
             "Blocky Stuff",
             "Cleanliness",
-            "Lotsofwater",
+            "Lots of water",
             "Metal Stuff",
             "Strange Stuff"
         ]
@@ -352,7 +352,7 @@
         "type": "Decoration",
         "tags": [
             "Blocky Stuff",
-            "Lotsoffire",
+            "Lots of fire",
             "Metal Stuff",
             "Strange Stuff"
         ]
@@ -398,7 +398,7 @@
         "tags": [
             "Blocky Stuff",
             "Cleanliness",
-            "Lotsofwater",
+            "Lots of water",
             "Stone Stuff",
             "Strange Stuff"
         ]
@@ -443,8 +443,8 @@
             "Blocky Stuff",
             "Electronics",
             "Glass Stuff",
-            "Groupactivities",
-            "Lettersandwords",
+            "Group activities",
+            "Letters and words",
             "Metal Stuff",
             "Shiny Stuff",
             "Watching Stuff"
@@ -457,8 +457,8 @@
             "Blocky Stuff",
             "Electronics",
             "Glass Stuff",
-            "Groupactivities",
-            "Lettersandwords",
+            "Group activities",
+            "Letters and words",
             "Metal Stuff",
             "Shiny Stuff",
             "Watching Stuff"
@@ -471,7 +471,7 @@
             "Blocky Stuff",
             "Electronics",
             "Glass Stuff",
-            "Groupactivities",
+            "Group activities",
             "Playspaces"
         ]
     },
@@ -481,7 +481,7 @@
         "tags": [
             "Blocky Stuff",
             "Electronics",
-            "Groupactivities"
+            "Group activities"
         ]
     },
     {
@@ -499,7 +499,7 @@
         "tags": [
             "Blocky Stuff",
             "Containers",
-            "Groupactivities",
+            "Group activities",
             "Playspaces",
             "Spooky Stuff",
             "Strange Stuff"
@@ -521,8 +521,8 @@
             "Blocky Stuff",
             "Complicated Stuff",
             "Gatherings",
-            "Groupactivities",
-            "Lettersandwords",
+            "Group activities",
+            "Letters and words",
             "Shiny Stuff"
         ]
     },
@@ -540,7 +540,7 @@
         "tags": [
             "Blocky Stuff",
             "Complicated Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Watching Stuff"
         ]
     },
@@ -549,7 +549,7 @@
         "type": "Decoration",
         "tags": [
             "Blocky Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Strange Stuff"
         ]
     },
@@ -558,7 +558,7 @@
         "type": "Toy",
         "tags": [
             "Blocky Stuff",
-            "Groupactivities",
+            "Group activities",
             "Lotsofdirt",
             "Playspaces"
         ]
@@ -569,7 +569,7 @@
         "tags": [
             "Blocky Stuff",
             "Glass Stuff",
-            "Groupactivities",
+            "Group activities",
             "Metal Stuff",
             "Sharp Stuff"
         ]
@@ -581,7 +581,7 @@
             "Blocky Stuff",
             "Cute Stuff",
             "Luxury",
-            "Prettyflowers",
+            "Pretty flowers",
             "Round Stuff"
         ]
     },
@@ -590,8 +590,8 @@
         "type": "Relaxation",
         "tags": [
             "Blocky Stuff",
-            "Groupactivities",
-            "Lotsofwater",
+            "Group activities",
+            "Lots of water",
             "Wobbly Stuff"
         ]
     },
@@ -601,7 +601,7 @@
         "tags": [
             "Blocky Stuff",
             "Complicated Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Wooden Stuff"
         ]
     },
@@ -640,7 +640,7 @@
         "tags": [
             "Blocky Stuff",
             "Containers",
-            "Lettersandwords",
+            "Letters and words",
             "Sharp Stuff",
             "Watching Stuff",
             "Wooden Stuff"
@@ -702,7 +702,7 @@
         "tags": [
             "Cleanliness",
             "Electronics",
-            "Lotsofwater",
+            "Lots of water",
             "Stone Stuff",
             "Strange Stuff"
         ]
@@ -722,7 +722,7 @@
         "tags": [
             "Cleanliness",
             "Cute Stuff",
-            "Lotsofwater",
+            "Lots of water",
             "Shiny Stuff"
         ]
     },
@@ -731,7 +731,7 @@
         "type": "Toy",
         "tags": [
             "Cleanliness",
-            "Lotsofwater",
+            "Lots of water",
             "Shiny Stuff"
         ]
     },
@@ -740,7 +740,7 @@
         "type": "Toy",
         "tags": [
             "Cleanliness",
-            "Lotsofwater",
+            "Lots of water",
             "Metal Stuff",
             "Slenderobjects",
             "Strange Stuff"
@@ -751,7 +751,7 @@
         "type": "Decoration",
         "tags": [
             "Cleanliness",
-            "Lotsofwater",
+            "Lots of water",
             "Stone Stuff",
             "Strange Stuff"
         ]
@@ -762,7 +762,7 @@
         "tags": [
             "Cleanliness",
             "Cute Stuff",
-            "Lotsofwater",
+            "Lots of water",
             "Strange Stuff"
         ]
     },
@@ -772,7 +772,7 @@
         "tags": [
             "Cleanliness",
             "Colorful Stuff",
-            "Lotsofwater",
+            "Lots of water",
             "Round Stuff",
             "Wooden Stuff"
         ]
@@ -909,7 +909,7 @@
         "tags": [
             "Colorful Stuff",
             "Fabric",
-            "Groupactivities",
+            "Group activities",
             "Luxury",
             "Soft Stuff"
         ]
@@ -921,7 +921,7 @@
             "Colorful Stuff",
             "Cute Stuff",
             "Fabric",
-            "Groupactivities",
+            "Group activities",
             "Soft Stuff"
         ]
     },
@@ -932,7 +932,7 @@
             "Colorful Stuff",
             "Cute Stuff",
             "Fabric",
-            "Groupactivities",
+            "Group activities",
             "Soft Stuff"
         ]
     },
@@ -942,7 +942,7 @@
         "tags": [
             "Colorful Stuff",
             "Electronics",
-            "Groupactivities",
+            "Group activities",
             "Shiny Stuff",
             "Soft Stuff"
         ]
@@ -971,7 +971,7 @@
         "tags": [
             "Colorful Stuff",
             "Lookslikefood",
-            "Lotsofwater"
+            "Lots of water"
         ]
     },
     {
@@ -1000,7 +1000,7 @@
         "tags": [
             "Colorful Stuff",
             "Lookslikefood",
-            "Lotsofwater"
+            "Lots of water"
         ]
     },
     {
@@ -1068,7 +1068,7 @@
             "Colorful Stuff",
             "Fabric",
             "Gatherings",
-            "Groupactivities",
+            "Group activities",
             "Lotsofdirt",
             "Round Stuff",
             "Soft Stuff"
@@ -1137,7 +1137,7 @@
         "type": "Decoration",
         "tags": [
             "Colorful Stuff",
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
@@ -1145,7 +1145,7 @@
         "type": "Decoration",
         "tags": [
             "Colorful Stuff",
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
@@ -1181,7 +1181,7 @@
         "tags": [
             "Colorful Stuff",
             "Glass Stuff",
-            "Lettersandwords"
+            "Letters and words"
         ]
     },
     {
@@ -1191,7 +1191,7 @@
             "Colorful Stuff",
             "Cute Stuff",
             "Gatherings",
-            "Groupactivities",
+            "Group activities",
             "Watching Stuff"
         ]
     },
@@ -1379,8 +1379,8 @@
             "Colorful Stuff",
             "Cute Stuff",
             "Gatherings",
-            "Groupactivities",
-            "Prettyflowers",
+            "Group activities",
+            "Pretty flowers",
             "Soft Stuff"
         ]
     },
@@ -1401,7 +1401,7 @@
             "Colorful Stuff",
             "Containers",
             "Cute Stuff",
-            "Lotsofwater"
+            "Lots of water"
         ]
     },
     {
@@ -1421,7 +1421,7 @@
         "tags": [
             "Colorful Stuff",
             "Gatherings",
-            "Prettyflowers",
+            "Pretty flowers",
             "Soft Stuff",
             "Watching Stuff"
         ]
@@ -1441,7 +1441,7 @@
         "type": "Toy",
         "tags": [
             "Colorful Stuff",
-            "Groupactivities",
+            "Group activities",
             "Luxury",
             "Metal Stuff",
             "Stone Stuff"
@@ -1507,7 +1507,7 @@
             "Complicated Stuff",
             "Gatherings",
             "Glass Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Metal Stuff"
         ]
     },
@@ -1520,7 +1520,7 @@
             "Electronics",
             "Garbage",
             "Gatherings",
-            "Groupactivities",
+            "Group activities",
             "Metal Stuff"
         ]
     },
@@ -1570,7 +1570,7 @@
         "tags": [
             "Complicated Stuff",
             "Garbage",
-            "Lettersandwords"
+            "Letters and words"
         ]
     },
     {
@@ -1579,7 +1579,7 @@
         "tags": [
             "Complicated Stuff",
             "Garbage",
-            "Lettersandwords"
+            "Letters and words"
         ]
     },
     {
@@ -1588,7 +1588,7 @@
         "tags": [
             "Complicated Stuff",
             "Garbage",
-            "Lettersandwords"
+            "Letters and words"
         ]
     },
     {
@@ -1597,7 +1597,7 @@
         "tags": [
             "Complicated Stuff",
             "Garbage",
-            "Lettersandwords"
+            "Letters and words"
         ]
     },
     {
@@ -1606,7 +1606,7 @@
         "tags": [
             "Complicated Stuff",
             "Garbage",
-            "Lettersandwords",
+            "Letters and words",
             "Watching Stuff"
         ]
     },
@@ -1626,7 +1626,7 @@
         "type": "Decoration",
         "tags": [
             "Complicated Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Metal Stuff",
             "Shiny Stuff",
             "Stone Stuff",
@@ -1638,7 +1638,7 @@
         "type": "Decoration",
         "tags": [
             "Complicated Stuff",
-            "Lettersandwords",
+            "Letters and words",
             "Metal Stuff",
             "Shiny Stuff",
             "Stone Stuff",
@@ -1704,7 +1704,7 @@
             "Construction",
             "Containers",
             "Gatherings",
-            "Groupactivities",
+            "Group activities",
             "Metal Stuff",
             "Round Stuff"
         ]
@@ -1806,7 +1806,7 @@
         "tags": [
             "Containers",
             "Gatherings",
-            "Groupactivities"
+            "Group activities"
         ]
     },
     {
@@ -1814,7 +1814,7 @@
         "type": "Decoration",
         "tags": [
             "Containers",
-            "Prettyflowers",
+            "Pretty flowers",
             "Slenderobjects",
             "Stone Stuff",
             "Watching Stuff"
@@ -1825,7 +1825,7 @@
         "type": "Decoration",
         "tags": [
             "Containers",
-            "Prettyflowers",
+            "Pretty flowers",
             "Watching Stuff",
             "Wobbly Stuff"
         ]
@@ -1846,7 +1846,7 @@
         "type": "Decoration",
         "tags": [
             "Containers",
-            "Prettyflowers",
+            "Pretty flowers",
             "Stone Stuff",
             "Watching Stuff",
             "Wobbly Stuff"
@@ -1858,7 +1858,7 @@
         "tags": [
             "Containers",
             "Lotsofnature",
-            "Prettyflowers",
+            "Pretty flowers",
             "Slenderobjects",
             "Stone Stuff",
             "Watching Stuff"
@@ -1870,7 +1870,7 @@
         "tags": [
             "Containers",
             "Lotsofnature",
-            "Prettyflowers",
+            "Pretty flowers",
             "Slenderobjects",
             "Watching Stuff"
         ]
@@ -1881,7 +1881,7 @@
         "tags": [
             "Containers",
             "Lotsofnature",
-            "Prettyflowers",
+            "Pretty flowers",
             "Slenderobjects",
             "Watching Stuff"
         ]
@@ -1967,7 +1967,7 @@
         "tags": [
             "Containers",
             "Cute Stuff",
-            "Prettyflowers",
+            "Pretty flowers",
             "Soft Stuff"
         ]
     },
@@ -1986,7 +1986,7 @@
         "tags": [
             "Containers",
             "Glass Stuff",
-            "Lotsoffire",
+            "Lots of fire",
             "Metal Stuff"
         ]
     },
@@ -2029,7 +2029,7 @@
         "tags": [
             "Cute Stuff",
             "Fabric",
-            "Groupactivities",
+            "Group activities",
             "Soft Stuff"
         ]
     },
@@ -2039,7 +2039,7 @@
         "tags": [
             "Cute Stuff",
             "Fabric",
-            "Groupactivities",
+            "Group activities",
             "Soft Stuff"
         ]
     },
@@ -2174,7 +2174,7 @@
         "type": "Decoration",
         "tags": [
             "Cute Stuff",
-            "Lotsoffire",
+            "Lots of fire",
             "Spooky Stuff",
             "Stone Stuff"
         ]
@@ -2288,7 +2288,7 @@
             "Cute Stuff",
             "Electronics",
             "Glass Stuff",
-            "Oceanvibes"
+            "Ocean vibes"
         ]
     },
     {
@@ -2308,7 +2308,7 @@
         "type": "",
         "tags": [
             "Cute Stuff",
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
@@ -2330,8 +2330,8 @@
         "type": "",
         "tags": [
             "Cute Stuff",
-            "Groupactivities",
-            "Prettyflowers",
+            "Group activities",
+            "Pretty flowers",
             "Soft Stuff"
         ]
     },
@@ -2362,7 +2362,7 @@
             "Electronics",
             "Glass Stuff",
             "Healing",
-            "Lotsofwater",
+            "Lots of water",
             "Round Stuff",
             "Strange Stuff"
         ]
@@ -2372,7 +2372,7 @@
         "type": "Toy",
         "tags": [
             "Electronics",
-            "Groupactivities",
+            "Group activities",
             "Noisy Stuff"
         ]
     },
@@ -2389,7 +2389,7 @@
         "type": "Toy",
         "tags": [
             "Electronics",
-            "Groupactivities",
+            "Group activities",
             "Shiny Stuff",
             "Strange Stuff"
         ]
@@ -2489,7 +2489,7 @@
             "Electronics",
             "Glass Stuff",
             "Metal Stuff",
-            "Oceanvibes",
+            "Ocean vibes",
             "Slenderobjects"
         ]
     },
@@ -2607,7 +2607,7 @@
         "tags": [
             "Electronics",
             "Metal Stuff",
-            "Oceanvibes",
+            "Ocean vibes",
             "Wobbly Stuff"
         ]
     },
@@ -2696,7 +2696,7 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Oceanvibes",
+            "Ocean vibes",
             "Soft Stuff"
         ]
     },
@@ -2714,7 +2714,7 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Oceanvibes",
+            "Ocean vibes",
             "Soft Stuff"
         ]
     },
@@ -2752,7 +2752,7 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Groupactivities",
+            "Group activities",
             "Soft Stuff"
         ]
     },
@@ -2761,8 +2761,8 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Groupactivities",
-            "Oceanvibes",
+            "Group activities",
+            "Ocean vibes",
             "Soft Stuff"
         ]
     },
@@ -2771,7 +2771,7 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Groupactivities",
+            "Group activities",
             "Luxury",
             "Soft Stuff"
         ]
@@ -2781,7 +2781,7 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Groupactivities",
+            "Group activities",
             "Luxury",
             "Soft Stuff"
         ]
@@ -2791,7 +2791,7 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Oceanvibes",
+            "Ocean vibes",
             "Soft Stuff"
         ]
     },
@@ -2809,7 +2809,7 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Oceanvibes",
+            "Ocean vibes",
             "Soft Stuff"
         ]
     },
@@ -2826,7 +2826,7 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Groupactivities",
+            "Group activities",
             "Soft Stuff"
         ]
     },
@@ -2835,8 +2835,8 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Lotsofwater",
-            "Oceanvibes",
+            "Lots of water",
+            "Ocean vibes",
             "Soft Stuff",
             "Wobbly Stuff"
         ]
@@ -2846,7 +2846,7 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Groupactivities",
+            "Group activities",
             "Luxury",
             "Soft Stuff",
             "Wooden Stuff"
@@ -2857,7 +2857,7 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Groupactivities",
+            "Group activities",
             "Luxury",
             "Soft Stuff"
         ]
@@ -2867,7 +2867,7 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Groupactivities",
+            "Group activities",
             "Metal Stuff",
             "Soft Stuff"
         ]
@@ -2878,9 +2878,9 @@
         "tags": [
             "Fabric",
             "Gatherings",
-            "Groupactivities",
+            "Group activities",
             "Lookslikefood",
-            "Lotsofwater"
+            "Lots of water"
         ]
     },
     {
@@ -2907,8 +2907,8 @@
         "type": "Relaxation",
         "tags": [
             "Fabric",
-            "Lotsofwater",
-            "Oceanvibes"
+            "Lots of water",
+            "Ocean vibes"
         ]
     },
     {
@@ -2990,8 +2990,8 @@
         "type": "Decoration",
         "tags": [
             "Gatherings",
-            "Groupactivities",
-            "Lotsofwater"
+            "Group activities",
+            "Lots of water"
         ]
     },
     {
@@ -3008,7 +3008,7 @@
         "type": "Decoration",
         "tags": [
             "Gatherings",
-            "Lettersandwords"
+            "Letters and words"
         ]
     },
     {
@@ -3025,7 +3025,7 @@
         "type": "Decoration",
         "tags": [
             "Gatherings",
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
@@ -3159,7 +3159,7 @@
         "type": "Decoration",
         "tags": [
             "Glass Stuff",
-            "Lotsofwater",
+            "Lots of water",
             "Watching Stuff"
         ]
     },
@@ -3175,14 +3175,14 @@
         "name": "Wooden bench",
         "type": "Relaxation",
         "tags": [
-            "Groupactivities"
+            "Group activities"
         ]
     },
     {
         "name": "Stone bench",
         "type": "Relaxation",
         "tags": [
-            "Groupactivities",
+            "Group activities",
             "Hard Stuff",
             "Stone Stuff"
         ]
@@ -3191,7 +3191,7 @@
         "name": "Iron bench",
         "type": "Relaxation",
         "tags": [
-            "Groupactivities",
+            "Group activities",
             "Metal Stuff"
         ]
     },
@@ -3199,7 +3199,7 @@
         "name": "Industrial bench",
         "type": "Relaxation",
         "tags": [
-            "Groupactivities",
+            "Group activities",
             "Metal Stuff"
         ]
     },
@@ -3207,7 +3207,7 @@
         "name": "Garden bench",
         "type": "Relaxation",
         "tags": [
-            "Groupactivities",
+            "Group activities",
             "Lotsofnature",
             "Metal Stuff"
         ]
@@ -3216,7 +3216,7 @@
         "name": "Pok\u00e9 Ball Sofa",
         "type": "Relaxation",
         "tags": [
-            "Groupactivities",
+            "Group activities",
             "Metal Stuff"
         ]
     },
@@ -3224,7 +3224,7 @@
         "name": "Wooden Bed",
         "type": "Relaxation",
         "tags": [
-            "Groupactivities",
+            "Group activities",
             "Lotsofnature",
             "Soft Stuff"
         ]
@@ -3233,7 +3233,7 @@
         "name": "Luxury bed",
         "type": "Relaxation",
         "tags": [
-            "Groupactivities",
+            "Group activities",
             "Luxury",
             "Soft Stuff",
             "Stone Stuff"
@@ -3243,8 +3243,8 @@
         "name": "Campfire",
         "type": "Relaxation",
         "tags": [
-            "Groupactivities",
-            "Lotsoffire",
+            "Group activities",
+            "Lots of fire",
             "Stone Stuff"
         ]
     },
@@ -3252,8 +3252,8 @@
         "name": "Firepit",
         "type": "Decoration",
         "tags": [
-            "Groupactivities",
-            "Lotsoffire",
+            "Group activities",
+            "Lots of fire",
             "Round Stuff",
             "Stone Stuff"
         ]
@@ -3262,8 +3262,8 @@
         "name": "Bonfire",
         "type": "Decoration",
         "tags": [
-            "Groupactivities",
-            "Lotsoffire",
+            "Group activities",
+            "Lots of fire",
             "Watching Stuff"
         ]
     },
@@ -3271,7 +3271,7 @@
         "name": "Tire toy",
         "type": "Toy",
         "tags": [
-            "Groupactivities",
+            "Group activities",
             "Playspaces",
             "Round Stuff",
             "Wobbly Stuff"
@@ -3281,7 +3281,7 @@
         "name": "Slide",
         "type": "Toy",
         "tags": [
-            "Groupactivities",
+            "Group activities",
             "Playspaces",
             "Wooden Stuff"
         ]
@@ -3290,7 +3290,7 @@
         "name": "Small stage",
         "type": "Toy",
         "tags": [
-            "Groupactivities",
+            "Group activities",
             "Metal Stuff",
             "Playspaces",
             "Round Stuff",
@@ -3302,7 +3302,7 @@
         "name": "Canoe",
         "type": "Toy",
         "tags": [
-            "Groupactivities",
+            "Group activities",
             "Round Stuff"
         ]
     },
@@ -3310,8 +3310,8 @@
         "name": "Map and compass",
         "type": "Toy",
         "tags": [
-            "Groupactivities",
-            "Lettersandwords"
+            "Group activities",
+            "Letters and words"
         ]
     },
     {
@@ -3703,7 +3703,7 @@
         "name": "Gravestone",
         "type": "Decoration",
         "tags": [
-            "Lettersandwords",
+            "Letters and words",
             "Spooky Stuff",
             "Strange Stuff"
         ]
@@ -3712,7 +3712,7 @@
         "name": "Arrow sign",
         "type": "Decoration",
         "tags": [
-            "Lettersandwords",
+            "Letters and words",
             "Wooden Stuff"
         ]
     },
@@ -3720,7 +3720,7 @@
         "name": "Sign",
         "type": "Decoration",
         "tags": [
-            "Lettersandwords",
+            "Letters and words",
             "Symbols",
             "Wooden Stuff"
         ]
@@ -3729,7 +3729,7 @@
         "name": "Weakness Policy",
         "type": "",
         "tags": [
-            "Lettersandwords"
+            "Letters and words"
         ]
     },
     {
@@ -3774,7 +3774,7 @@
         "name": "Fiery Magby statue",
         "type": "Toy",
         "tags": [
-            "Lotsoffire",
+            "Lots of fire",
             "Stone Stuff",
             "Strange Stuff"
         ]
@@ -3783,14 +3783,14 @@
         "name": "Torch",
         "type": "Relaxation",
         "tags": [
-            "Lotsoffire"
+            "Lots of fire"
         ]
     },
     {
         "name": "Slender candle",
         "type": "Decoration",
         "tags": [
-            "Lotsoffire",
+            "Lots of fire",
             "Slenderobjects",
             "Spooky Stuff",
             "Stone Stuff"
@@ -3800,7 +3800,7 @@
         "name": "Wall torch",
         "type": "Decoration",
         "tags": [
-            "Lotsoffire",
+            "Lots of fire",
             "Stone Stuff"
         ]
     },
@@ -3808,21 +3808,21 @@
         "name": "Smelting furnace",
         "type": "",
         "tags": [
-            "Lotsoffire"
+            "Lots of fire"
         ]
     },
     {
         "name": "Metallic smelting furnace",
         "type": "",
         "tags": [
-            "Lotsoffire"
+            "Lots of fire"
         ]
     },
     {
         "name": "Charcoal",
         "type": "",
         "tags": [
-            "Lotsoffire"
+            "Lots of fire"
         ]
     },
     {
@@ -3904,7 +3904,7 @@
         "name": "Funky diffuser",
         "type": "Toy",
         "tags": [
-            "Lotsofwater",
+            "Lots of water",
             "Metal Stuff",
             "Strange Stuff"
         ]
@@ -3913,8 +3913,8 @@
         "name": "Horsea fountain",
         "type": "Toy",
         "tags": [
-            "Lotsofwater",
-            "Oceanvibes",
+            "Lots of water",
+            "Ocean vibes",
             "Stone Stuff",
             "Strange Stuff"
         ]
@@ -3923,7 +3923,7 @@
         "name": "Fire hydrant",
         "type": "Decoration",
         "tags": [
-            "Lotsofwater",
+            "Lots of water",
             "Metal Stuff",
             "Shiny Stuff"
         ]
@@ -3932,7 +3932,7 @@
         "name": "Sprinkler",
         "type": "Toy",
         "tags": [
-            "Lotsofwater",
+            "Lots of water",
             "Metal Stuff",
             "Stone Stuff",
             "Strange Stuff"
@@ -3942,7 +3942,7 @@
         "name": "Mystic Water",
         "type": "",
         "tags": [
-            "Lotsofwater"
+            "Lots of water"
         ]
     },
     {
@@ -4156,7 +4156,7 @@
         "type": "Toy",
         "tags": [
             "Metal Stuff",
-            "Oceanvibes",
+            "Ocean vibes",
             "Slenderobjects",
             "Wobbly Stuff"
         ]
@@ -4351,14 +4351,14 @@
         "name": "Deck chair",
         "type": "Relaxation",
         "tags": [
-            "Oceanvibes"
+            "Ocean vibes"
         ]
     },
     {
         "name": "Ship's Wheel",
         "type": "Toy",
         "tags": [
-            "Oceanvibes",
+            "Ocean vibes",
             "Round Stuff"
         ]
     },
@@ -4366,273 +4366,273 @@
         "name": "Wildflowers",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Seashore flowers",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Mountain flowers",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Skyland flowers",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Beautiful flower",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Elegant flower",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Robust flower",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Wildflowers (orange)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Wildflowers (purple)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Wildflowers (red)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Wildflowers (blue)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Seashore flowers (blue)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Seashore flowers (orange)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Seashore flowers (white)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Seashore flowers (yellow)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Mountain flowers (pink)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Mountain flowers (purple)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Mountain flowers (red)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Mountain flowers (white)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Skyland flowers (blue)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Skyland flowers (orange)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Skyland flowers (pink)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Skyland flowers (yellow)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Beautiful flower (pink)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Beautiful flower (purple)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Beautiful flower (white)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Beautiful flower (yellow)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Cute flower (blue)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Cute flower (pink)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Cute flower (white)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Cute flower (yellow)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Elegant flower (orange)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Elegant flower (pink)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Elegant flower (red)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Elegant flower (yellow)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Robust flower (blue)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Robust flower (orange)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Robust flower (purple)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
         "name": "Robust flower (white)",
         "type": "",
         "tags": [
-            "Prettyflowers"
+            "Pretty flowers"
         ]
     },
     {
