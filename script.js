@@ -7,14 +7,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadData() {
         try {
-            const pkmnResponse = await fetch('pokemon.json');
+            const pkmnResponse = await fetch('pokemon.json?v=1.1');
             allPokemon = await pkmnResponse.json();
 
-            const itemResponse = await fetch('items.json');
+            const itemResponse = await fetch('items.json?v=1.1');
             allItems = await itemResponse.json();
 
             populateDropdowns();
-            // Initial run to clear any cached browser text
             updateDisplay();
         } catch (error) {
             console.error("Critical Error: JSON files could not be loaded. Check file names and locations.", error);
