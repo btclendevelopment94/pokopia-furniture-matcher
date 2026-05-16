@@ -3940,5 +3940,18 @@
             "Play spaces",
             "Sweet Flavors"
         ]
+    },
+    {
+        "name": "Sableye",
+        "pokedex": "#302",
+        "habitat": "Dark",
+        "favorites": [
+            "Spooky stuff",
+            "Shiny stuff",
+            "Luxury",
+            "Looks like food",
+            "Watching stuff",
+            "Sour Flavors"
+        ]
     }
 ]
