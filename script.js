@@ -7,10 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     async function loadData() {
         try {
-            const pkmnResponse = await fetch('pokemon.json?v=1.1');
+            const pkmnResponse = await fetch('pokemon.json?v=1.3');
             allPokemon = await pkmnResponse.json();
 
-            const itemResponse = await fetch('items.json?v=1.1');
+            const itemResponse = await fetch('items.json?v=1.3');
             allItems = await itemResponse.json();
 
             populateDropdowns();

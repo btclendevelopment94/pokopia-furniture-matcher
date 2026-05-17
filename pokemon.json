@@ -3943,7 +3943,7 @@
     },
     {
         "name": "Sableye",
-        "pokedex": "#302",
+        "pokedex": "",
         "habitat": "Dark",
         "favorites": [
             "Spooky stuff",
@@ -3952,6 +3952,45 @@
             "Looks like food",
             "Watching stuff",
             "Sour Flavors"
+        ]
+    },
+    {
+        "name": "Hoppip",
+        "pokedex": "",
+        "habitat": "Bright",
+        "favorites": [
+            "Soft stuff",
+            "Lots of nature",
+            "Nice breezes",
+            "Pretty flowers",
+            "Wobbly stuff",
+            "Sweet Flavors"
+        ]
+    },
+    {
+        "name": "Skiploom",
+        "pokedex": "",
+        "habitat": "Bright",
+        "favorites": [
+            "Soft stuff",
+            "Lots of nature",
+            "Nice breezes",
+            "Pretty flowers",
+            "Wobbly stuff",
+            "Sweet Flavors"
+        ]
+    },
+    {
+        "name": "Jumpluff",
+        "pokedex": "",
+        "habitat": "Bright",
+        "favorites": [
+            "Soft stuff",
+            "Lots of nature",
+            "Nice breezes",
+            "Pretty flowers",
+            "Wobbly stuff",
+            "Sweet Flavors"
         ]
     }
 ]
