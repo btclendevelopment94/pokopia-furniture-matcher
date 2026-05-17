@@ -196,6 +196,21 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // --- RESET WORKSPACE LOGIC ---
+    const clearAllBtn = document.getElementById('clear-all-btn');
+
+    if (clearAllBtn) {
+        clearAllBtn.addEventListener('click', () => {
+            // 1. Loop through and clear just the search boxes
+            selectors.forEach(select => {
+                select.value = "";
+            });
+
+            // 2. Refresh the UI engine to clear matching lists & warnings
+            updateDisplay();
+        });
+    }
+
     // Start the engine
     loadData();
 });

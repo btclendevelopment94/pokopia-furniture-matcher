@@ -313,3 +313,33 @@ body.dark-mode .conflict-alert {
         transform: translateY(0);
     }
 }
+
+/* --- GLOBAL RESET BUTTON --- */
+.clear-all-btn {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    padding: 8px 20px;
+    cursor: pointer;
+    background: transparent;
+    color: var(--text-muted);
+    border: 2px solid var(--border-color);
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.clear-all-btn:hover {
+    background-color: #ef4444; /* Vivid Red */
+    border-color: #ef4444;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
+}
+
+.clear-all-btn:active {
+    transform: translateY(0);
+}
