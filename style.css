@@ -333,7 +333,8 @@ body.dark-mode .conflict-alert {
 }
 
 .clear-all-btn:hover {
-    background-color: #ef4444; /* Vivid Red */
+    background-color: #ef4444;
+    /* Vivid Red */
     border-color: #ef4444;
     color: white;
     transform: translateY(-1px);
