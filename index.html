@@ -4,67 +4,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pokopia Furniture Matcher</title>
-    <link rel="stylesheet" href="style.css?v=1.3">
+    <title>Pokopia Furniture Helper</title>
+    <link rel="stylesheet" href="style.css?v=1.5">
 </head>
 
 <body>
 
+    <button id="theme-toggle" class="theme-btn">Dark Mode</button>
+
     <header>
-        <h1>Pokopia Furniture Matcher</h1>
-        <p>Select Pokémon to Find Matching Furniture</p>
-        <p><small><i>Data was sourced directly from <a href="https://www.serebii.net">Serebii</a></i></small></p>
-        <button id="theme-toggle" class="theme-btn">Toggle Dark Mode</button>
+        <h1>Pokopia Furniture Helper</h1>
+        <p>Select up to Four Pokémon to Find Matching Furniture Items</p>
+        <button id="clear-all-btn" class="clear-all-btn">Reset Pokémon Selections</button>
     </header>
 
-    <section id="selection-area">
+    <main id="selection-area">
         <div class="selector-container">
-            <input class="pkmn-select" id="select-1" list="pokemon-options" placeholder="Search Pokémon 1...">
+            <input type="text" id="select-1" class="pkmn-select" list="pokemon-options"
+                placeholder="Search Pokémon 1...">
             <div id="info-1" class="pkmn-info"></div>
         </div>
         <div class="selector-container">
-            <input class="pkmn-select" id="select-2" list="pokemon-options" placeholder="Search Pokémon 2...">
+            <input type="text" id="select-2" class="pkmn-select" list="pokemon-options"
+                placeholder="Search Pokémon 2...">
             <div id="info-2" class="pkmn-info"></div>
         </div>
         <div class="selector-container">
-            <input class="pkmn-select" id="select-3" list="pokemon-options" placeholder="Search Pokémon 3...">
+            <input type="text" id="select-3" class="pkmn-select" list="pokemon-options"
+                placeholder="Search Pokémon 3...">
             <div id="info-3" class="pkmn-info"></div>
         </div>
         <div class="selector-container">
-            <input class="pkmn-select" id="select-4" list="pokemon-options" placeholder="Search Pokémon 4...">
+            <input type="text" id="select-4" class="pkmn-select" list="pokemon-options"
+                placeholder="Search Pokémon 4...">
             <div id="info-4" class="pkmn-info"></div>
         </div>
+    </main>
 
-        <datalist id="pokemon-options"></datalist>
-    </section>
-
-    
+    <datalist id="pokemon-options"></datalist>
 
     <div id="conflict-banner" class="conflict-alert" style="display: none;">
         <span class="warning-icon">⚠️</span>
         <span id="conflict-message"></span>
     </div>
 
-    <button id="clear-all-btn" class="clear-all-btn">Reset Pokémon</button>
-
-    <main class="results-container">
-        <div class="column" id="relaxation-col">
+    <section class="results-container">
+        <div class="column">
             <h2>Relaxation</h2>
-            <div class="item-list" id="list-Relaxation"></div>
+            <div id="list-Relaxation"></div>
         </div>
-
-        <div class="column" id="decoration-col">
+        <div class="column">
             <h2>Decoration</h2>
-            <div class="item-list" id="list-Decoration"></div>
+            <div id="list-Decoration"></div>
         </div>
-
-        <div class="column" id="toys-col">
-            <h2>Toys</h2>
-            <div class="item-list" id="list-Toy"></div>
+        <div class="column">
+            <h2>Toy</h2>
+            <div id="list-Toy"></div>
         </div>
-    </main>
+    </section>
 
-    <script src="script.js?v=1.3"></script>
+    <script src="script.js?v=1.5"></script>
 </body>
 
 </html>

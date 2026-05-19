@@ -2,15 +2,15 @@ document.addEventListener('DOMContentLoaded', () => {
     let allPokemon = [];
     let allItems = [];
 
-    // Grab all four search inputs
     const selectors = document.querySelectorAll('.pkmn-select');
 
     async function loadData() {
         try {
-            const pkmnResponse = await fetch('pokemon.json?v=1.3');
+            // Version queries bumped to v=1.4
+            const pkmnResponse = await fetch('pokemon.json?v=1.5');
             allPokemon = await pkmnResponse.json();
 
-            const itemResponse = await fetch('items.json?v=1.3');
+            const itemResponse = await fetch('items.json?v=1.5');
             allItems = await itemResponse.json();
 
             populateDropdowns();
@@ -32,7 +32,6 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // Attach listeners to every search box
     selectors.forEach((select) => {
         select.addEventListener('input', () => {
             updateDisplay();
@@ -63,10 +62,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // 1. Run the item matching engine
         renderItems(selectedPkmnObjects);
-
-        // 2. Run the habitat conflict checker
         checkHabitatConflicts(selectedPkmnObjects);
     }
 
@@ -76,25 +72,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (!banner || !messageEl) return;
 
-        // Extract all unique habitats from the currently selected Pokemon
         const currentHabitats = [...new Set(selectedPkmn.map(p => p.habitat.toLowerCase()))];
-
         let conflictsFound = [];
 
-        // Rule 1: Bright vs Dark
         if (currentHabitats.includes('bright') && currentHabitats.includes('dark')) {
             conflictsFound.push("<strong>Bright</strong> and <strong>Dark</strong> preferences clash!");
         }
-        // Rule 2: Warm vs Cool
         if (currentHabitats.includes('warm') && currentHabitats.includes('cool')) {
             conflictsFound.push("<strong>Warm</strong> and <strong>Cool</strong> preferences clash!");
         }
-        // Rule 3: Dry vs Humid
         if (currentHabitats.includes('dry') && currentHabitats.includes('humid')) {
             conflictsFound.push("<strong>Dry</strong> and <strong>Humid</strong> preferences clash!");
         }
 
-        // Display the banner if conflicts exist, otherwise hide it
         if (conflictsFound.length > 0) {
             messageEl.innerHTML = `<strong>Habitat Conflict Warning:</strong> ${conflictsFound.join(" | ")}`;
             banner.style.display = "flex";
@@ -130,7 +120,6 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
 
-        // Sort items by highest matches first
         matchedItems.sort((a, b) => b.matchCount - a.matchCount);
 
         matchedItems.forEach(matchedItem => {
@@ -157,7 +146,6 @@ document.addEventListener('DOMContentLoaded', () => {
         const itemCard = document.createElement('div');
         itemCard.className = 'item-card';
 
-        // SHADING RULES
         if (totalSelected === 2 && matchCount === 2) {
             itemCard.classList.add('match-perfect');
         } else if (totalSelected >= 3) {
@@ -182,7 +170,18 @@ document.addEventListener('DOMContentLoaded', () => {
         list.appendChild(itemCard);
     }
 
-    // --- DARK MODE THEME TOGGLE LOGIC ---
+    // --- RESET WORKSPACE LOGIC ---
+    const clearAllBtn = document.getElementById('clear-all-btn');
+    if (clearAllBtn) {
+        clearAllBtn.addEventListener('click', () => {
+            selectors.forEach(select => {
+                select.value = "";
+            });
+            updateDisplay();
+        });
+    }
+
+    // --- THEME TOGGLE LOGIC ---
     const themeBtn = document.getElementById('theme-toggle');
     if (themeBtn) {
         if (localStorage.getItem('theme') === 'dark') {
@@ -196,21 +195,5 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // --- RESET WORKSPACE LOGIC ---
-    const clearAllBtn = document.getElementById('clear-all-btn');
-
-    if (clearAllBtn) {
-        clearAllBtn.addEventListener('click', () => {
-            // 1. Loop through and clear just the search boxes
-            selectors.forEach(select => {
-                select.value = "";
-            });
-
-            // 2. Refresh the UI engine to clear matching lists & warnings
-            updateDisplay();
-        });
-    }
-
-    // Start the engine
     loadData();
 });

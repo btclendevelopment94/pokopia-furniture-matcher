@@ -15,7 +15,6 @@
     --yellow-border: #f59e0b;
 }
 
-/* DARK MODE OVERRIDES */
 body.dark-mode {
     --bg-color: #111827;
     --card-bg: #1f2937;
@@ -40,13 +39,15 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: relative;
+    /* Context for absolute button targeting */
     transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* --- POLISHED HEADER --- */
 header {
     text-align: center;
-    margin-top: 40px;
+    margin-top: 50px;
     margin-bottom: 60px;
     width: 100%;
 }
@@ -64,32 +65,60 @@ header p {
     font-size: 1.2rem;
     color: var(--text-muted);
     max-width: 600px;
-    margin: 0 auto 15px auto;
+    margin: 0 auto 20px auto;
     line-height: 1.5;
 }
 
+/* --- SUBTLE TOP-RIGHT THEME BUTTON --- */
 .theme-btn {
-    padding: 12px 28px;
+    position: absolute;
+    top: 24px;
+    right: 24px;
+    padding: 6px 14px;
     cursor: pointer;
-    background: var(--primary-color);
-    color: white;
-    border: none;
-    border-radius: 50px;
-    font-size: 1rem;
-    font-weight: 700;
+    background: transparent;
+    color: var(--text-muted);
+    border: 1px solid var(--border-color);
+    border-radius: 6px;
+    font-size: 0.8rem;
+    font-weight: 600;
     text-transform: uppercase;
-    letter-spacing: 1px;
-    box-shadow: 0 4px 14px 0 rgba(59, 130, 246, 0.39);
-    transition: all 0.3s ease;
-    margin-bottom: 15px;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
 }
 
 .theme-btn:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba(59, 130, 246, 0.23);
+    background-color: var(--card-bg);
+    color: var(--primary-color);
+    border-color: var(--primary-color);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
 }
 
-.theme-btn:active {
+/* --- GLOBAL RESET BUTTON --- */
+.clear-all-btn {
+    font-family: 'Inter', 'Segoe UI', sans-serif;
+    padding: 8px 8px;
+    cursor: pointer;
+    background: transparent;
+    color: var(--text-muted);
+    border: 2px solid var(--border-color);
+    border-radius: 50px;
+    font-size: 0.85rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    transition: all 0.2s ease;
+}
+
+.clear-all-btn:hover {
+    background-color: #ef4444;
+    border-color: #ef4444;
+    color: white;
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
+}
+
+.clear-all-btn:active {
     transform: translateY(0);
 }
 
@@ -267,18 +296,16 @@ body.dark-mode .match-badge {
     background: rgba(255, 255, 255, 0.1);
 }
 
+/* --- CONFLICT ALERTS --- */
 .conflict-alert {
     width: 100%;
     max-width: 1200px;
     margin: -20px auto 30px auto;
-    /* Tucks it neatly between selections and results */
     box-sizing: border-box;
     padding: 14px 20px;
     background-color: #fef2f2;
-    /* Light red */
     border: 1px solid #fee2e2;
     border-left: 5px solid #ef4444;
-    /* Vivid red accent line */
     border-radius: 8px;
     color: #991b1b;
     font-size: 0.95rem;
@@ -288,17 +315,10 @@ body.dark-mode .match-badge {
     animation: fadeIn 0.2s ease-in-out;
 }
 
-.warning-icon {
-    font-size: 1.2rem;
-}
-
-/* Dark mode adjustment for proper contrast */
 body.dark-mode .conflict-alert {
     background-color: #451a03;
-    /* Deep amber/crimson background */
     border: 1px solid #78350f;
     border-left: 5px solid #f59e0b;
-    /* Vivid amber line */
     color: #fef3c7;
 }
 
@@ -312,35 +332,4 @@ body.dark-mode .conflict-alert {
         opacity: 1;
         transform: translateY(0);
     }
-}
-
-/* --- GLOBAL RESET BUTTON --- */
-.clear-all-btn {
-    font-family: 'Inter', 'Segoe UI', sans-serif;
-    padding: 8px 20px;
-    cursor: pointer;
-    background: transparent;
-    color: var(--text-muted);
-    border: 2px solid var(--border-color);
-    border-radius: 50px;
-    font-size: 0.85rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.5px;
-    transition: all 0.2s ease;
-    margin-top: 0px;
-    margin-bottom: 20px;
-}
-
-.clear-all-btn:hover {
-    background-color: #ef4444;
-    /* Vivid Red */
-    border-color: #ef4444;
-    color: white;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 12px rgba(239, 68, 68, 0.2);
-}
-
-.clear-all-btn:active {
-    transform: translateY(0);
 }
